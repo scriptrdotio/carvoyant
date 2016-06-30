@@ -13,9 +13,9 @@ execute=authenticated
  * @module TokenManager
  */
 
-var config = require("./config");
-var util = require("./util");
-var http = require("http");
+var config = require("./config.js");
+var util = require("./util.js");
+var http = require("http.js");
 
 /** 
  * Retrieve the access and refresh tokens of a given user from te global storage

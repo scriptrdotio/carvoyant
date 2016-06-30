@@ -4,12 +4,12 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var clientModule = require("./client");
-var mappings = require("./mappings");
-var config = require("./oauth2/config");
-var common = require("./common");
-var userModule = require("./user");
-var util = require("./util");
+ var clientModule = require("./client.js");
+var mappings = require("./mappings.js");
+var config = require("./oauth2/config.js");
+var common = require("./common.js");
+var userModule = require("./user.js");
+var util = require("./util.js");
 
 /**
  * This class allows you to subscribe to any type of notification, as made available by carvoyant

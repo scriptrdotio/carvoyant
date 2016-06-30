@@ -4,8 +4,8 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var userModule = require("../user");
-var vehicleModule = require("../vehicle");
+ var userModule = require("../user.js");
+var vehicleModule = require("../vehicle.js");
 
 try {
   var data = {};

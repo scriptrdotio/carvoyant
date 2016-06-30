@@ -10,7 +10,7 @@ execute=authenticated
  * @module DefaultHandler
  */
 
-var userModule = require("../user");
+var userModule = require("../user.js");
 
 /**
  * This method transforms the received notification into a readable form and sends it by email 

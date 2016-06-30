@@ -12,7 +12,7 @@ execute=authenticated
  * @module handleEvent
  */
 
-var common = require("../common");
+var common = require("../common.js");
 
 // get the notification sent by Carvoyant from the request's body
 var notification = request.body;

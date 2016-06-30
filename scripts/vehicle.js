@@ -4,10 +4,10 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var clientModule = require("./client");
-var config = require("./oauth2/config");
-var util = require("./util");
-var notifications = require("./notifications");
+ var clientModule = require("./client.js");
+var config = require("./oauth2/config.js");
+var util = require("./util.js");
+var notifications = require("./notifications.js");
 
 /**
  * This class wraps the data of a user's vehicle that is added to his carvoyant account.

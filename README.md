@@ -67,7 +67,7 @@ Once this is done, carvoyant automatically calls back the ```carvoyant/getAccess
 
 In order to use the connector, you need to import the main module: ```carvoyant/user```, as described below:
 ```
-var userModule = require("/modules/carvoyant/user");
+var userModule = require("/modules/carvoyant/user.js");
 ```
 Then create a new instance of the User class, defined in this module (we assume that we already otbained an access token for the given user):
 ```
@@ -86,7 +86,7 @@ var vehicle = user.getVehicle("some_id"); // you can easily obtained the vehicle
 ```
 - second option is to create an instance of vehicle, passing a username and a vehicle id:
 ```
-var vehicleModule = require("/modules/carvoyant/vehicle");
+var vehicleModule = require("/modules/carvoyant/vehicle.js");
 var vehicle = new vehicleModule.Vehicle({username:"edison", vehicleId:"some_id"});
 ```
 Using the vehicle object, you now retrieve data about the vehicle or subscribe to notifications sent by this latter,

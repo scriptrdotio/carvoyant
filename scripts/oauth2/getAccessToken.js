@@ -4,8 +4,8 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var tokenManager = require("./TokenManager");
-var config = require("./config");
+ var tokenManager = require("./TokenManager.js");
+var config = require("./config.js");
 
 try {
   var params = _parseRequestOnIncorrectCallbackQueryString(request);

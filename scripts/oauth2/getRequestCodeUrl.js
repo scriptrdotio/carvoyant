@@ -16,7 +16,7 @@ execute=authenticated
  * the one of the user's account
  */
 
-var config = require("./config");
+var config = require("./config.js");
 
 try {
   var username = request.parameters.username;

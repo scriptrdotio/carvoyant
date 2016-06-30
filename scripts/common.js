@@ -25,10 +25,10 @@ var notificationConfig = {
  */
 var handlers = {
   
-  "GEOFENCE": "../notificationHandlers/DefaultHandler",  
-  "IGNITIONSTATUS":"../notificationHandlers/DefaultHandler",
-  "LOWBATTERY": "../notificationHandlers/DefaultHandler",  
-  "NUMERICDATAKEY": "../notificationHandlers/DefaultHandler",  
-  "TIMEOFDAY": "../notificationHandlers/DefaultHandler",  
-  "TROUBLECODE": "../notificationHandlers/DefaultHandler"
+  "GEOFENCE": "../notificationHandlers/DefaultHandler.js",  
+  "IGNITIONSTATUS":"../notificationHandlers/DefaultHandler.js",
+  "LOWBATTERY": "../notificationHandlers/DefaultHandler.js",  
+  "NUMERICDATAKEY": "../notificationHandlers/DefaultHandler.js",  
+  "TIMEOFDAY": "../notificationHandlers/DefaultHandler.js",  
+  "TROUBLECODE": "../notificationHandlers/DefaultHandler.js"
 };			

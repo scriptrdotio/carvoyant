@@ -4,9 +4,9 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var clientModule = require("./client");
-var config = require("./oauth2/config");
-var util = require("./util");
+ var clientModule = require("./client.js");
+var config = require("./oauth2/config.js");
+var util = require("./util.js");
 
 /**
  * This class wraps the data of a carvoyant user and exposes methods for all
@@ -142,7 +142,7 @@ User.prototype.listVehicles = function() {
  */
 User.prototype.getVehicle = function(vehicleId) {
   
-  var vehicleModule = require("carvoyant/vehicle");
+  var vehicleModule = require("carvoyant/vehicle.js");
   var vehicle = new vehicleModule.Vehicle({username:this.username, vehicleId:vehicleId});
   return vehicle;
 };

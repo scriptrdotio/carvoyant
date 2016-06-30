@@ -4,7 +4,7 @@ write=nobody
 execute=authenticated 
   **/ 
  
- var mappings = require("./mappings");
+ var mappings = require("./mappings.js");
 
 reformatDataSet = function(dataSet, redundantFields) {
 
