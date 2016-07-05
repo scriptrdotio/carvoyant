@@ -14,19 +14,19 @@ var apiUrl = "https://sandbox-api.carvoyant.com/sandbox/api"; // sandbox is for 
 var apiVer = "";
 
 // OAuth 2.0: Authorization URI - step1 of OAuth process
-var authorizationUrl = "https://sandbox-auth.carvoyant.com/OAuth/authorize"; 
+var authorizationUrl = "https://sandbox-auth.carvoyant.com/oauth/authorize"; // replace with production url when convenient
 
 // OAuth 2.0: Authorization URI - step2 of OAuth process (if response_type is "code" usually)
-var accessTokenUrl = ""; // example
+var accessTokenUrl = "https://sandbox-auth.carvoyant.com/oauth/token"; // replace with production url when convenient
 
 // OAuth 2.0 Client ID
-var client_id = ""; // example
+var client_id = "YOUR_API_KEY"; // example
 
 // OAuth 2.0 grant type, can be left empty
 var grantType = "authorization_code";
 
 // Client (consumer) secret
-var client_secret = ""; // example
+var client_secret = "YOUR_API_SECRET"; // example
 
 // The OAuth 2.0 type of the returned credential (can be "code" or "token")
 var response_type = "token";
