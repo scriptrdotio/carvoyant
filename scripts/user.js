@@ -142,7 +142,7 @@ User.prototype.listVehicles = function() {
  */
 User.prototype.getVehicle = function(vehicleId) {
   
-  var vehicleModule = require("carvoyant/vehicle.js");
+  var vehicleModule = require("./vehicle.js");
   var vehicle = new vehicleModule.Vehicle({username:this.username, vehicleId:vehicleId});
   return vehicle;
 };
